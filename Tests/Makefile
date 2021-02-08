@@ -86,6 +86,10 @@ GCD: GCD.o $(LIB)
 	@echo Linking...
 	@$(CXX) $^ -o $@ $(CXX_FLAGS)
 
+ntpheat: ntpheat.o $(LIB)
+	@echo Linking...
+	@$(CXX) $^ -o $@ $(CXX_FLAGS)
+
 AutoTest: AutoTest.o $(LIB)
 	@echo Linking...
 	@$(CXX) $^ -o $@ $(CXX_FLAGS)
